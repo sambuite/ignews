@@ -45,6 +45,15 @@ export const getServerSideProps: GetServerSideProps = async ({
 
   const response = await client.getByUID('post', String(slug), {});
 
+  if (!session?.activeSubscription) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      },
+    };
+  }
+
   const post = {
     slug,
     title: RichText.asText(response.data.title),
