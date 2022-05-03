@@ -9,12 +9,6 @@
   </a>
 </p>
 
-<br />
-
-> App developed at [Rocketseat Ignite](https://www.rocketseat.com.br/ignite).
-
-<br />
-
 ## :camera: Demo
 
 <p align="center">
@@ -47,6 +41,7 @@
 - **Stripe** — Payments infrastructure
 - **FaunaDB** — Database / Data API for modern applications
 - **Prismic CMS** — A Headless CMS
+- **Jest** — Testing library
 
 <br />
 
@@ -91,8 +86,10 @@ or if you use yarn
 
 ---
 
-Developed by <a href="https://github.com/sambuite" target="_blank">Murilo Sambuite</a>
+<br />
+
+> Developed by <a href="https://github.com/sambuite" target="_blank">Murilo Sambuite</a> at [Rocketseat Ignite](https://www.rocketseat.com.br/ignite).
 
 <br />
 
-<a href="#top">De Volta ao Topo</a>
+<a href="#top">Back to top</a>
